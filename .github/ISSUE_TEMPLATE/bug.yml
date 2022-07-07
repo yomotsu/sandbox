@@ -1,5 +1,5 @@
 name: Bug report
-title: ""
+# title: ""
 description: Create a report to help us improve
 labels: []
 body:
@@ -15,11 +15,11 @@ body:
     id: reproduce
     attributes:
       label: To Reproduce
-    placeholder: |
-      Steps to reproduce the behavior:
-      1. Go to '...'
-      2. Click on '....'
-      3. See error
+      placeholder: |
+        Steps to reproduce the behavior:
+        1. Go to '...'
+        2. Click on '....'
+        3. See error
     validations:
       required: true
 
@@ -28,16 +28,16 @@ body:
     attributes:
       label: Code
       render: js
-    placeholder: |
-      // code goes here
+      placeholder: |
+        // code goes here
 
   - type: textarea
     id: live-example
     attributes:
       label: Live example
       description: Link URL of live examples.
-    placeholder: |
-      https://codesandbox.io/s/react-three-fiber-camera-controls-4jjor
+      placeholder: |
+        https://codesandbox.io/s/react-three-fiber-camera-controls-4jjor
 
   - type: textarea
     id: expected-behavior
