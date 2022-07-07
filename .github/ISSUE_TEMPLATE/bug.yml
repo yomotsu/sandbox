@@ -20,6 +20,11 @@ body:
         1. Go to '...'
         2. Click on '....'
         3. See error
+      value: |
+        Steps to reproduce the behavior:
+        1. Go to '...'
+        2. Click on '....'
+        3. See error
     validations:
       required: true
 
@@ -77,10 +82,11 @@ body:
         - label: Android
         - label: iOS
 
-  - type: checkboxes
+  - type: dropdown
     id: platform-browser
     attributes:
       label: Browser
+      multiple: true
       options:
         - label: Chrome
         - label: Firefox
